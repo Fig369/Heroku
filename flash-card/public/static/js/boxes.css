@@ -1,0 +1,363 @@
+.button {
+    display:inline;
+    width: 125px;
+    height: 22.2px;
+    color:#fff;
+    font-size: 14px;
+    background: #3070a8;
+    border: none;
+    cursor:pointer;
+}
+
+.button:hover {
+    background-color: #1c5282;; 
+    color: white;
+}
+
+#d1 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+
+#d2 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d3 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d4 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d5 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;    
+}
+#d6 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d7 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d8 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d9 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d10 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d11 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d12 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d13 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d14 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d15 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+#d16 {
+    border-bottom: 0.7px solid; border-color: rgba(122, 123, 0, 0.5);
+    padding-left: 10px;
+}
+
+#div1 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#div2 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#div3 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#div4 {width:600px;height:40px;padding:1px;border:1px solid #aaaaaa; 
+       text-align: center; vertical-align: middle;display: table-cell;}
+#drag1 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag2 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag3 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;margin-bottom:1px;}
+#drag4 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag5 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag6 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag7 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag8 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag9 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag10 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag11 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag12 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag13 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag14 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag15 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag16 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag17 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag18 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag19 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#drag20 {width:100px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+
+#mdrag1 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag2 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag3 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag4 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag5 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag6 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag7 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag8 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag9 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag10 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag11 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag12 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag13 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag14 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag15 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag16 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag17 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag18 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag19 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#mdrag20 {width:150px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+
+#ldrag1 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag2 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag3 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag4 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag5 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag6 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag7 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag8 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag9 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag10 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag11 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag12 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag13 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag14 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag15 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag16 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag17 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag18 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag19 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+#ldrag20 {width:200px;height:20px;padding:1px;border:1px solid #aaaaaa;margin-bottom:1px;}
+
+.target
+{ 
+    width:109px;height:20px;padding:0px;border:1px solid rgba(55,130,108, 0.85);
+}
+.orderTarget
+{ 
+    width:109px;height:20px;padding:0px;border:1px solid rgba(55,130,108, 0.85);
+}
+
+.mtarget
+{ 
+    width:150px;height:20px;padding:0px;border:1px solid rgba(55,130,108, 0.85);
+}
+
+.ltarget
+{ 
+    width:200px;height:20px;padding:0px;border:1px solid rgba(55,130,108, 0.85);
+}
+
+.source
+{ 
+    width:70%;height:40px;padding:1px;border:1px solid #aaaaaa; 
+    text-align: center; vertical-align: middle;display: table-cell;
+}
+
+#maincontentstyle {
+    background: white repeat-x; 
+    padding-bottom: em; margin-left: auto; margin-right: auto; width: 100%;
+   margin-left: auto; margin-right: auto; 
+}
+
+#boxstyle {
+    border-right: 1px solid; background: white; padding-bottom: 11.15px; 
+    border-left: 1px solid; border-bottom: 1px solid;  
+    text-align: left; border-color: #edc100; 
+/*    max-width: 600px; 10/4/2015 auto extended to both sides horizontally*/
+}
+
+#h3style {color: white; font-family: Helvetica, sans-serif; 
+          background: rgba(22, 51, 125, 0.72);
+/*              #edc100; */
+          border-color: #edc100; 
+          margin-bottom: 0.5em; padding-left: 10px; text-align: left; margin-top: 0px;
+          padding-top: 3px; font-size: 100%;
+/*           max-width: 600px;*/
+}
+
+#tablestyle {
+    color: black; margin:10px;}
+
+.draggyBox-small
+{
+    width:109px;
+    height:20px;
+    line-height: 20px; 
+    vertical-align: middle;
+    color:#000000;
+    background-color:#CCCCCC;
+    padding:0px;
+    /*    border:1px solid #aaaaaa;*/
+    font-size: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 1px; margin-top: 2px; 
+    background-color: #3F5E17;
+/*    background-color: goldenrod;*/
+/*        rgba(55,130,108, 0.85);*/
+/*    goldenrod; */
+    color:white;
+
+    cursor:pointer;
+}
+.draggyBox-small:hover {    
+    background-color: #1F390E !important;    
+    color: white !important;
+}  
+
+.codeStyle {
+   margin-top:-5px;
+   margin-bottom:-5px;
+}
+
+.sourceVertical {
+   float: left;
+   
+}
+.odraggyBox-small
+{
+    width:109px;
+/*    line-height: 20px; 
+    vertical-align: middle;*/
+    padding:0px;
+    border:1px solid #aaaaaa;
+    font-size: 100%;
+    text-align: left;
+/*    display: inline-block;*/
+    margin: 0px; 
+    background-color:white;
+    color:black;
+    font-family: monospace;
+}
+
+.draggyBox-medium
+{
+    width:150px;
+    height:20px;
+    line-height: 20px; 
+    vertical-align: middle;
+    color:#000000;
+    background-color:#CCCCCC;
+    padding:0px;
+    /*    border:1px solid #aaaaaa;*/
+    font-size: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 1px; margin-top: 2px; 
+    background-color: #3F5E17;
+/*    goldenrod; */
+    color:white;
+    cursor:pointer;
+}
+.draggyBox-medium:hover {    
+    background-color: #1F390E !important;    
+    color: white !important;
+} 
+
+.draggyBox-large
+{
+    width:200px;
+    height:20px;
+    line-height: 20px; 
+    vertical-align: middle;
+    color:#000000;
+    background-color:#CCCCCC;
+    padding:0px;
+    /*    border:1px solid #aaaaaa;*/
+    font-size: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 1px; margin-top: 2px; 
+    background-color: #3F5E17;
+/*    goldenrod; */
+    color:white;
+    cursor:pointer;
+}
+
+.draggyBox-large:hover {    
+    background-color: #1F390E !important;    
+    color: white !important;
+} 
+
+#tablestyle div.hovered {
+  background: #aaa;
+}
+
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #FFF;
+	border: solid 5px #999;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	color: green; 
+	background: #CCC url(images/title.gif) top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content {
+	background: 16px 16px no-repeat url(images/info.gif);
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+
+#popup_content.alert {
+	background-image: url(images/info.gif);
+}
+
+#popup_content.confirm {
+	background-image: url(images/important.gif);
+}
+
+#popup_content.prompt {
+	background-image: url(images/help.gif);
+}
+
+#popup_message {
+	padding-left: 48px;
+        color: green;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}

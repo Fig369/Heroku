@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap css -->
+    <!-- main css -->
+    <style>
+        :root {
+       --mainWhite: #f5f5f5;
+       --mainDark: #333333;
+       --mainOrange: #ff8552;
+       --mainGreen: #297373;
+     }
+   
+     #card-holder {
+       display:none;
+     }
+   
+     #next {
+       font-size: 125%;
+       margin-top: 20px;
+       width: 100%;
+       display: block;
+       text-align: center;
+     }
+     
+     body {
+       background: var(--mainWhite);
+       color: var(--mainDark);
+     }
+     .show-btn {
+       border-color: var(--mainOrange);
+       color: var(--mainOrange);
+       background: transparent;
+     }
+     .show-btn:hover {
+       background: var(--mainOrange);
+       color: var(--mainDark);
+     }
+     
+   .flip-card-inner {
+     margin: 10px;
+     font-size: 125%;
+   }
+   
+     .question-card {
+       display: none;
+       position: relative;
+       background: transparent;
+       border-color: var(--mainOrange);
+     }
+     .feedback {
+       display: none;
+     }
+     
+     textarea {
+       border-radius: 0.25rem;
+       border-color: var(--mainOrange);
+     }
+     .close-btn {
+       position: absolute;
+       top: 0;
+       right: 2%;
+       font-size: 2rem;
+       color: var(--mainOrange);
+       cursor: pointer;
+     }
+     .close-btn:hover {
+       color: var(--mainGreen);
+     }
+     .submitBtn {
+       border: 0.2rem solid var(--mainGreen);
+       color: var(--mainGreen);
+       background: transparent;
+     }
+     .submitBtn:hover {
+       background: var(--mainGreen);
+       color: var(--mainWhite);
+     }
+     .edit-flashcard {
+       border: 0.2rem solid var(--mainGreen);
+       color: var(--mainGreen);
+       background: transparent;
+     }
+     .edit-flashcard:hover {
+       background: var(--mainGreen);
+       color: var(--mainDark);
+     }
+     .delete-flashcard {
+       border: 0.2rem solid var(--mainOrange);
+       color: var(--mainOrange);
+       background: transparent;
+     }
+     .delete-flashcard:hover {
+       background: var(--mainOrange);
+       color: var(--mainDark);
+     }
+     .answer {
+       display: none;
+     }
+     .showItem {
+       display: block;
+     }
+   
+     .flip-card {
+       background-color: transparent;
+       width: 300px;
+       height: 300px;
+       perspective: 1000px;
+     }
+     
+     .flip-card-inner {
+       position: relative;
+       width: 100%;
+       height: 100%;
+       text-align: center;
+       transition: transform 0.6s;
+       transform-style: preserve-3d;
+       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     }
+     
+     .flip-card:hover .flip-card-inner {
+       transform: rotateY(180deg);
+     }
+     
+     .flip-card-front, .flip-card-back {
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       -webkit-backface-visibility: hidden;
+       backface-visibility: hidden;
+     }
+     
+     .flip-card-front {
+       background-color: #bbb;
+       color: black;
+     }
+     
+     .flip-card-back {
+       background-color: #2980b9;
+       color: white;
+       transform: rotateY(180deg);
+     }
+    </style>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   
+   
+    <!-- font awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js " defer></script>
+  </head>
+  <body>
+    <h1><%=category%></h1>
+    <ul>
+      <% for(var i=0; i < cards.length; i++) { %>
+      <div id="card-holder">
+        <div id="flip-card" class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" id="question_front">
+              <label for="">prompt</label>
+              <li><%= cards[i].prompt %></li>
+              <label for="">question</label>
+              <li><%= cards[i].question %></li>
+            </div>
+            <div class="flip-card-back" id="answer_back">
+              <label for="">answer</label>
+              <li><%= cards[i].answer %></li>
+            </div>
+          </div>
+        </div>
+        <a href="#" id="next">Next Card</a>
+      </div>
+      <% } %>
+      <a href="/topics/<%=category%>">back to <%=category%></a>
+    </ul>
+  </body>
+</html>
