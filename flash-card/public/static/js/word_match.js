@@ -1,6 +1,6 @@
-// window.load = main()
+ window.load = main()
 
-// function main(){
+ function main(){
     // initially html is not generated.
     var htmlGenerated = false;
     // number of inputs start out as 2.
@@ -21,7 +21,7 @@
     // var someVarName = true;
     // sessionStorage.setItem("someVarKey1", someVarName);
     // window.location.reload();
-    // }
+     }
 
     function populate_numbers_array(footer, dlArray){
         console.log("populating numbers")
@@ -112,7 +112,7 @@
 
         for (let i = numberOfInputs; i < elArray.length+numberOfInputs; i++){
             html += '\t\t\t\t\t\t<div id=\'s';
-	        id   = i-numberOfInputs+1;//elArray[i-numberOfInputs].replace ( /[^\d.]/g, '' );
+	        id   = /* i-numberOfInputs+1; */ elArray[i-numberOfInputs].replace ( /[^\d.]/g, '' );
             console.log("id "+id)
 	        html += id;
 	        html +='\' class=\'draggyBox-small ui-draggable\'>\n';
@@ -134,7 +134,7 @@
         for (let i = numberOfInputs; i < dlArray.length+numberOfInputs; i++){
             html +='\t\t\t\t\t\t<tr>\n'
             html += '\t\t\t\t\t\t<td id=\'row';
-            id   =  i-numberOfInputs+1;//dlArray[i-numberOfInputs].replace ( /[^\d.]/g, '' );
+            id   = /*  i-numberOfInputs+1; */ dlArray[i-numberOfInputs].replace ( /[^\d.]/g, '' );
             console.log("id "+id);
             html += id;
             html +='\'>\n';
@@ -281,8 +281,8 @@
         controls = document.createElement("div");
         controls.setAttribute("id","program1");
         controls.setAttribute("style","border: 1px solid #EB0D1B; width: 450px; font-family: courier; font-size: 100.5%; margin: 0px auto; border: 1px; text-align: center; margin-top: 5px;");
-        // controls.innerHTML +=  '<button id = "renderHTMLButton" class="button" type="button" onClick="render_html()">Render html</button>\n';
-        controls.innerHTML +=  '<button id = "submit" class="button" type="button" onClick="saveContent()"> Save </button>\n';
+        controls.innerHTML +=  '<button id = "renderHTMLButton" class="button" type="button" onClick="render_html()">Render html</button>\n';
+       /*  controls.innerHTML +=  '<button id = "submit" class="button" type="button" onClick="saveContent()"> Save </button>\n'; */
         controls.innerHTML +=  `<button id=\"view_button\" class=\"button\" style=\" display: none;\"><a href=\"${window.location.href}/${saved_id}\"> view</a> </button>\n`;
         if(document.getElementById("renderHTMLButton"))
             results.parentNode.replaceChild(controls);
