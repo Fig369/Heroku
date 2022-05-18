@@ -1,20 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="/static/css/main.css">
+  
 
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <!-- bootstrap css -->
- <!-- main css -->
- <link rel="stylesheet" href="/static/css/main.css">
- <!-- google fonts -->
- <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-
- <!-- font awesome -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
  <title>Flashcard Project</title>
  <style>
  </style>
@@ -22,17 +10,23 @@
 
 <body>
 
- <div class="container">
+ <div class="container"  style=" display: grid; grid-template-columns: repeat(23, 1fr)">
   <div class="row">
+    <h3 class="text-capitalize" style="margin-bottom: 13px;margin-left: 13px;">Quiz Generator</h3>
+    <br>
+    <a href="/topics" style="padding-left: 9px;padding-top: 5px;">see topics</a>
    <div class="col-11 col-lg-6 my-3">
-    <h3 class="text-capitalize">Quiz Generator</h3>
-    <a href="/topics">see topics</a>
+
     <body>
         <div id="maincontentstyle">
         <div id="boxstyle">
             <div>
             <div id="inputs">
-                    <div id="inputBoxes">
+                    <div id="inputBoxes" style="display: grid;
+                    grid-template-columns: 2fr repeat(2, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                    grid-column-gap: 9px;
+                    grid-row-gap: 13px;">
                         <title>Input:</title>
                         <div>
                         Topic: <input id= "topic" type="text" value="">
@@ -54,9 +48,14 @@
                         </div>
                     </div>
                     <span style="padding: 3px">
-                    <button id ="add_more" class="button" type="button" onClick="add_more()">Add More</button>
+                    <button id ="add_more" class="button" type="button" onClick="add_more()" style="padding-top: 1px;margin-top: 15px;">Add More</button>
                     <button id ="add_more" class="button" type="button" onClick="save()">Save</button>
                     </span>
+                    <br>
+                    <br>
+                    <h5>
+                        See my process maps from  <a href="https://lucid.app/lucidchart/8c0c3e0a-a731-45d9-9f0f-b42a64a34ba2/view">Lucidchart</a> where I have been documenting this app and brainstorming some ideas
+                    </h5>
                 </div>
                 </div>
             </div>
@@ -103,20 +102,20 @@
     br = document.createElement("br");
 
     // //create a new row for a prompt term.
-    // row0 = document.createElement("div");
+    row0 = document.createElement("div");
 
     // // set the key term text.
-    // row0.innerHTML = "Prompt ";
-    // row0.innerHTML +=numberOfInputs;
-    // row0.innerHTML +=" :";
+    row0.innerHTML = "Prompt ";
+    row0.innerHTML +=numberOfInputs;
+    row0.innerHTML +=" :";
 
     // // create the input for the prompt.
-    // key = document.createElement("input");
-    // key.setAttribute("id","pl"+numberOfInputs);
+    key = document.createElement("input");
+    key.setAttribute("id","pl"+numberOfInputs);
 
     // //add the key to the row.
-    // row0.appendChild(key);
-    // row0.after(br);
+    row0.appendChild(key);
+    row0.after(br);
     
     //create a new row for a key term.
     row1 = document.createElement("div");
@@ -151,7 +150,7 @@
     row2.appendChild(description);
 
     // add the rows for the key and the description to the inputBoxes.
-    // inputs.appendChild(row0);
+    inputs.appendChild(row0);
     inputs.appendChild(row1);
     inputs.appendChild(row2);
     }

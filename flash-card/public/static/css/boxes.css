@@ -182,8 +182,13 @@
 #maincontentstyle {
     background: white repeat-x; 
     padding-bottom: em; margin-left: auto; margin-right: auto; width: 100%;
-   margin-left: auto; margin-right: auto; 
+    margin-left: auto; margin-right: auto; 
+    
 }
+/* #maincontentstyle.style {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+} */
 
 #boxstyle {
     border-right: 1px solid; background: white; padding-bottom: 11.15px; 
@@ -376,7 +381,7 @@ textarea {
 
 /* CSS Sections */
 .row {
-    display: flex;
+/*     display: flex; */
   }
   
 .column {
