@@ -53,7 +53,7 @@ function saveCategory(){
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     xhr.onreadystatechange = function()
     {   
-        if(xhr.readyState == 4 && xhr.status == 201) {
+        if(xhr.readyState == 4 && xhr.status == 200) {
             console.log(xhr.status)
             console.log("content saved");
         }
@@ -103,7 +103,7 @@ function saveCard(){
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     xhr.onreadystatechange = function()
     {   
-        if(xhr.readyState == 4 && xhr.status == 201) {
+        if(xhr.readyState == 4 && xhr.status == 200) {
             console.log(xhr.status)
             console.log("content saved");
         }
